@@ -18,6 +18,8 @@ yolov8_meter/
 
 train/*  
 !train/data.csv
+!train/Dataset
 
 test/*  
 !test/data.csv
+!test/Dataset
