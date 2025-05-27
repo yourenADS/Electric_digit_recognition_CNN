@@ -1,0 +1,23 @@
+# 忽略大型模型权重文件（保留需要的）
+*.pth
+*.pt
+!fcn_detector_best.pth  # 保留特定模型
+
+# 忽略数据集目录（如果数据不需要版本控制）
+yolo_data/
+
+# 忽略Jupyter Notebook临时文件
+*.ipynb_checkpoints/
+.ipynb
+!detaction.ipynb  # 保留特定Notebook
+!digital.ipynb    # 保留特定Notebook
+
+# 忽略生成的目录
+models/
+yolov8_meter/
+
+train/*  
+!train/data.csv
+
+test/*  
+!test/data.csv

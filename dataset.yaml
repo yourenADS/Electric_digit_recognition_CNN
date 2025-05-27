@@ -1,0 +1,9 @@
+
+# 数据集路径
+path: ../yolo_data  # 根路径
+train: images/train  # 训练集路径
+val: images/val  # 验证集路径
+
+# 类别信息
+nc: 1  # 类别数量
+names: ['meter']  # 类别名称
