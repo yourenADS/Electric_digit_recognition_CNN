@@ -14,7 +14,7 @@ yolo_data/
 
 # 忽略生成的目录
 models/
-yolov8_meter/
+yolov8_meter/*
 !exp111/
 
 train/*  
